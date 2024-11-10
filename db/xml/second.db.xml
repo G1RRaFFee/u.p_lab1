@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<pets>
+    <pet id="1">
+        <nickname>Karl</nickname>
+        <age>4</age>
+        <gender>male</gender>
+        <color>blue</color>
+        <animal_type>parrot</animal_type>
+    </pet>
+    <pet id="2">
+        <nickname>Karl</nickname>
+        <age>4</age>
+        <gender>male</gender>
+        <color>blue</color>
+        <animal_type>parrot</animal_type>
+    </pet>
+    <pet id="3">
+        <nickname>Karl</nickname>
+        <age>4</age>
+        <gender>male</gender>
+        <color>blue</color>
+        <animal_type>parrot</animal_type>
+    </pet>
+</pets>
