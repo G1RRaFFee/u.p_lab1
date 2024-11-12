@@ -21,3 +21,8 @@ SOLID
 DRY
 KISS
 Паттерны проектирования
+
+## Префиксы:
+
+u - uviversity
+p - program

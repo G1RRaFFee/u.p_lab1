@@ -1,0 +1,35 @@
+{
+    "total_count": 5,
+    "pets": [
+        {
+            "pet_id": 1,
+            "name": "Барсик",
+            "species": "Кот",
+            "age": 4
+        },
+        {
+            "pet_id": 3,
+            "name": "РЫЖИК",
+            "species": "Попугай",
+            "age": 7
+        },
+        {
+            "pet_id": 4,
+            "name": "РЫЖИК",
+            "species": "Кот",
+            "age": 7
+        },
+        {
+            "pet_id": 5,
+            "name": "РЫЖИК",
+            "species": "Кот",
+            "age": 7
+        },
+        {
+            "pet_id": 6,
+            "name": "Шарик",
+            "species": "Рыба",
+            "age": 90
+        }
+    ]
+}
