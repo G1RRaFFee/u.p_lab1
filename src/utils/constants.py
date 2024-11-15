@@ -17,9 +17,14 @@ class FilePathEnum(Enum):
 class PetEnum(Enum):
     CAT = "Кот"
     DOG = "Собака"
-    PARROT = "Попугай"
+    BIRD = "Птица"
     FISH = "Рыба"
     HAMSTER = "Хомяк"
+    RABBIT = "Кролик"
+    PARROT = "Попугай"
+    TURTLE = "Черепаха"
+    FERRET = "Хорек"
+    IGUANA = "Игуана"
 
     @staticmethod
     def is_valid_type(value: str) -> bool:

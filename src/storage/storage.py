@@ -5,7 +5,7 @@ from utils.constants import FilePathEnum
 from storage.serializer.serializer import PetsData
 
 class Storage:
-    def __init__(self, serializer: Serializer):
+    def __init__(self, serializer: Serializer) -> None:
         self.serializer: Serializer = serializer
         self.db_path: str = FilePathEnum.get_path(serializer.get_type())
 
@@ -29,7 +29,7 @@ class Storage:
             print(f"Ошибка при загрузке данных: {error}")
             return {"total_count": 0, "pets": []}
 
-    def _create_file(self):
+    def _create_file(self) -> None:
         print(f"Создание нового файла: {self.db_path}")
         initial_data: PetsData = {"total_count": 0, "pets": []}
         with open(self.db_path, 'w', encoding='utf-8') as file:

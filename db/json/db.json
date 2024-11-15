@@ -1,35 +1,47 @@
 {
-    "total_count": 5,
+    "total_count": 7,
     "pets": [
         {
-            "pet_id": 1,
-            "name": "Барсик",
-            "species": "Кот",
-            "age": 4
-        },
-        {
+            "species": "Птица",
             "pet_id": 3,
             "name": "РЫЖИК",
-            "species": "Попугай",
             "age": 7
         },
         {
-            "pet_id": 4,
-            "name": "РЫЖИК",
-            "species": "Кот",
-            "age": 7
+            "species": "Хомяк",
+            "pet_id": 0,
+            "name": "АБОБУС",
+            "age": 1231231231
         },
         {
+            "species": "Хомяк",
             "pet_id": 5,
-            "name": "РЫЖИК",
-            "species": "Кот",
-            "age": 7
+            "name": "АБОБУС",
+            "age": 1231231231
         },
         {
+            "species": "Рыба",
             "pet_id": 6,
             "name": "Шарик",
-            "species": "Рыба",
             "age": 90
+        },
+        {
+            "species": "Хомяк",
+            "pet_id": 7,
+            "name": "Karl",
+            "age": 12
+        },
+        {
+            "species": "Хомяк",
+            "pet_id": 0,
+            "name": "ЗИЛИБОБИК",
+            "age": 1231231231
+        },
+        {
+            "species": "Собака",
+            "pet_id": 8,
+            "name": "АЛЕШКА",
+            "age": 4444
         }
     ]
 }

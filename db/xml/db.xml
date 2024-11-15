@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <pets>
-    <total_count>4</total_count>
+    <total_count>6</total_count>
     <pets_list>
         <pet>
             <pet_id>1</pet_id>
@@ -25,6 +25,18 @@
             <name>Шарик</name>
             <species>Рыба</species>
             <age>90</age>
+        </pet>
+        <pet>
+            <species>Хомяк</species>
+            <pet_id>5</pet_id>
+            <name>Karl</name>
+            <age>12</age>
+        </pet>
+        <pet>
+            <species>Хомяк</species>
+            <pet_id>6</pet_id>
+            <name>попка</name>
+            <age>3</age>
         </pet>
     </pets_list>
 </pets>

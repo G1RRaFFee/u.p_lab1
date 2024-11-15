@@ -5,6 +5,7 @@ from model.pet import Pet
 PetsData = dict[str, int | list[Pet]]
 
 class Serializer(ABC):
+    
     @abstractmethod
     def to_format(self, pets_data: PetsData) -> str:
         pass
