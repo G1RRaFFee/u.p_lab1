@@ -4,8 +4,8 @@ from utils.constants import PetEnum
 
 class PetShop:
     def __init__(self, storage: Storage):
-        self.storage = storage
-        self.current_id = self._get_next_id()
+        self.storage: Storage = storage
+        self.current_id: int = self._get_next_id()
 
     def _get_next_id(self) -> int:
         data = self.storage.load_from_file()
@@ -14,7 +14,7 @@ class PetShop:
             return 1
         return max(pet["pet_id"] for pet in pets) + 1
     
-    def create_pet(self, name: str, species: PetEnum, age: int):
+    def create_pet(self, species: PetEnum, name: str, age: int):
         pet = Pet(pet_id=self.current_id, name=name, species=species, age=age)
         data = self.storage.load_from_file()
         data["pets"].append(pet.to_dict())
@@ -49,3 +49,5 @@ class PetShop:
         data["total_count"] = len(new_pets)
         self.storage.save_to_file(data)
         print(f"Питомец с id {pet_id} удален.")
+
+    

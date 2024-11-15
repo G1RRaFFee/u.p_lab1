@@ -1,20 +1,46 @@
 from utils.constants import PetEnum
 
-class Pet:
-    def __init__(self, pet_id: int, name: str, species: PetEnum, age: int):
-        if not PetEnum.is_valid_type(species):
-            raise ValueError(f"Недопустимый тип животного: {species}")
-        self.pet_id = pet_id
-        self.name = name
-        self.species = species
-        self.age = age
 
+class Pet:
+    def __init__(self, species: PetEnum, pet_id: int, name: str, age: int):
+        if not PetEnum.is_valid_type(species): 
+            raise ValueError(f"Недопустимый тип животного: {species}")
+        
+        self.__pet_id: int = pet_id
+        self.__name: str = name
+        self.__species: str = species
+        self.__age: int = age
+    
+    @property
+    def name(self) -> str:
+        return self.__name
+    
+    @property
+    def species(self) -> str:
+        return self.__species
+
+    @property
+    def age(self) -> int:
+        return self.__age
+    
+    @name.setter
+    def name(self, name: str) -> None:
+        self.__name = name
+
+    @species.setter
+    def species(self, species: PetEnum) -> None:
+        self.__species = species
+
+    @age.setter
+    def age(self, age: int) -> None:
+        self.__age = age
+    
     def to_dict(self):
         return {
-            "pet_id": self.pet_id,
-            "name": self.name,
-            "species": self.species,
-            "age": self.age
+            "species": self.__species,
+            "pet_id": self.__pet_id,
+            "name": self.__name,
+            "age": self.__age
         }
 
     @staticmethod
@@ -96,3 +122,11 @@ class Hamster(Pet):
         data = super().to_dict()
         data["favorite_food"] = self.favorite_food
         return data
+
+# Crud
+# C - create
+# r - read
+# u - update
+# d - delete
+
+

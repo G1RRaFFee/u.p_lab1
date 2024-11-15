@@ -1,12 +1,18 @@
 <?xml version="1.0" ?>
 <pets>
-    <total_count>11</total_count>
+    <total_count>4</total_count>
     <pets_list>
         <pet>
             <pet_id>1</pet_id>
-            <name>Барсик</name>
+            <name>РЫЖИК</name>
             <species>Кот</species>
-            <age>4</age>
+            <age>7</age>
+        </pet>
+        <pet>
+            <pet_id>2</pet_id>
+            <name>Шарик</name>
+            <species>Рыба</species>
+            <age>90</age>
         </pet>
         <pet>
             <pet_id>3</pet_id>
@@ -17,56 +23,8 @@
         <pet>
             <pet_id>4</pet_id>
             <name>Шарик</name>
-            <species>Собака</species>
-            <age>5</age>
-        </pet>
-        <pet>
-            <pet_id>5</pet_id>
-            <name>РЫЖИК</name>
-            <species>Кот</species>
-            <age>7</age>
-        </pet>
-        <pet>
-            <pet_id>6</pet_id>
-            <name>Шарик</name>
-            <species>Собака</species>
-            <age>5</age>
-        </pet>
-        <pet>
-            <pet_id>7</pet_id>
-            <name>РЫЖИК</name>
-            <species>Кот</species>
-            <age>7</age>
-        </pet>
-        <pet>
-            <pet_id>8</pet_id>
-            <name>Шарик</name>
-            <species>Собака</species>
-            <age>5</age>
-        </pet>
-        <pet>
-            <pet_id>9</pet_id>
-            <name>РЫЖИК</name>
-            <species>Кот</species>
-            <age>7</age>
-        </pet>
-        <pet>
-            <pet_id>10</pet_id>
-            <name>Шарик</name>
-            <species>Собака</species>
-            <age>5</age>
-        </pet>
-        <pet>
-            <pet_id>11</pet_id>
-            <name>РЫЖИК</name>
-            <species>Кот</species>
-            <age>7</age>
-        </pet>
-        <pet>
-            <pet_id>12</pet_id>
-            <name>Шарик</name>
-            <species>Собака</species>
-            <age>5</age>
+            <species>Рыба</species>
+            <age>90</age>
         </pet>
     </pets_list>
 </pets>
